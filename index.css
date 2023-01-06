@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-around;
+  max-width: 43rem;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.team {
+  width: 18em;
+  padding: 1em;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 6.625rem;
+  padding: 0.18em;
+  font-size: 90px;
+  color: #f94f6d;
+  margin: 20px;
+  font-weight: 500;
+}
+
+.score-container {
+  background-color: #1e1e1d;
+  width: 12.75em;
+  margin: 1.25em auto;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 0.4rem;
+}
+
+button {
+  padding: 9px 19px;
+  background: white;
+  border: none;
+  /* font-weight: 600; */
+  font-size: 1.25rem;
+}
+
+.reset-btn {
+  margin: 70px auto;
+  display: flex;
+}
